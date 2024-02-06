@@ -20,7 +20,6 @@ function setup() {
 }
 
 function draw() {
-	fill(255, 0, 0);
 	if (mouseIsPressed) {
 		line(
 			pmouseX - width / 2,

@@ -33,9 +33,7 @@ void main() {
         }
     } else {
         if (num > 2.5 && num < 3.5) {
-            particleColor = vec3(1.0, 1.0, 0.0);
-        } else {
-            particleColor = vec3(0.0, 0.0, 0.0); 
+            particleColor = vec3(1.0, 0.0, 1.0);
         }
     }
 
