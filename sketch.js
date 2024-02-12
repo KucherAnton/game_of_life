@@ -7,7 +7,7 @@ function preload() {
 }
 
 function setup() {
-	createCanvas(windowWidth, windowWidth - 799, WEBGL);
+	createCanvas(windowWidth, windowWidth, WEBGL);
 	pixelDensity(1);
 	noSmooth();
 	prevFrame = createGraphics(width, height);
